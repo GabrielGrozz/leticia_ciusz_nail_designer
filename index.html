@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Letícia Ciusz - Nail Designer</title>
+<meta name="description" content="Letícia Ciusz, nail designer há mais de 15 anos em Cascavel (PR). Esmaltação em gel, alongamento em fibra de vidro e cursos presenciais.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Lora:ital,wght@0,400..700;1,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Ícones reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></symbol>
+    <symbol id="i-nail" viewBox="0 0 100 200"><path d="M50 0C68 28 100 74 100 134C100 176 80 200 50 200C20 200 0 176 0 134C0 74 32 28 50 0Z" fill="currentColor"/><path d="M26 128C24 104 30 82 40 62" stroke="#fff" stroke-opacity=".6" stroke-width="9" stroke-linecap="round" fill="none"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="logo" href="index.html" aria-label="Letícia Ciusz, Nail Designer. Ir para o início">
+      <svg class="logo-mark" aria-hidden="true"><use href="#i-nail"/></svg>
+      <span><span class="logo-name">Letícia Ciusz</span><span class="logo-sub">NAIL DESIGNER</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+      <svg aria-hidden="true"><use href="#i-menu"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <ul class="nav-list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <h1 id="hero-title">Unhas feitas com calma, do seu jeito.</h1>
+        <p class="hero-text">Uma unha bonita começa antes da cor: na preparação da unha natural, no formato certo e na higiene de cada material. Depois vêm o gel, a fibra de vidro e os detalhes que deixam tudo com a sua cara.</p>
+        <div class="hero-actions">
+          <a class="btn btn-wa" data-wa data-msg="Olá, Letícia! Vim pelo seu site e gostaria de marcar um horário." href="#contato" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>Chamar no WhatsApp</a>
+          <a class="btn btn-line" href="cursos.html">Ver os cursos</a>
+        </div>
+      </div>
+
+      <div class="stage" role="img" aria-label="Cinco unhas em formato amêndoa com decorações diferentes: coração, curvas, ondas, cor sólida e francesinha">
+        <svg viewBox="0 0 600 440" aria-hidden="true">
+          <defs>
+            <clipPath id="nc"><path d="M50 0C68 30 100 80 100 148C100 192 80 220 50 220C20 220 0 192 0 148C0 80 32 30 50 0Z"/></clipPath>
+            <path id="gloss" d="M24 150C22 118 30 86 42 58" stroke="#fff" stroke-opacity=".5" stroke-width="6" stroke-linecap="round" fill="none"/>
+          </defs>
+
+          <!-- 1: coração -->
+          <g transform="translate(20 150) rotate(-12 50 220)"><g class="nail-in" style="--i:0"><g clip-path="url(#nc)">
+            <rect width="100" height="220" fill="#EFC3CC"/>
+            <path d="M50 170C14 142 22 106 38 106C46 106 50 112 50 116C50 112 54 106 62 106C78 106 86 142 50 170Z" fill="#FF3EA5" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+            <use href="#gloss"/>
+          </g></g></g>
+
+          <!-- 2: curva dupla -->
+          <g transform="translate(130 80) rotate(-6 50 220)"><g class="nail-in" style="--i:1"><g clip-path="url(#nc)">
+            <rect width="100" height="220" fill="#EFC3CC"/>
+            <path d="M-5 78C25 118 70 48 105 98V-5H-5Z" fill="#E6358F"/>
+            <path d="M-5 78C25 118 70 48 105 98" fill="none" stroke="#fff" stroke-width="8"/>
+            <path d="M-5 104C25 144 70 74 105 124" fill="none" stroke="#FF3EA5" stroke-width="8"/>
+            <path d="M-5 130C25 170 70 100 105 150" fill="none" stroke="#fff" stroke-width="5" stroke-opacity=".8"/>
+            <use href="#gloss"/>
+          </g></g></g>
+
+          <!-- 3: ondas -->
+          <g transform="translate(240 40)"><g class="nail-in" style="--i:2"><g clip-path="url(#nc)">
+            <rect width="100" height="220" fill="#F7DCE3"/>
+            <g fill="none" stroke-width="10">
+              <path d="M-10 30C30-8 60 60 110 14" stroke="#E6358F"/>
+              <path d="M-10 62C30 24 60 92 110 46" stroke="#fff"/>
+              <path d="M-10 94C30 56 60 124 110 78" stroke="#FF8CC6"/>
+              <path d="M-10 126C30 88 60 156 110 110" stroke="#fff"/>
+              <path d="M-10 158C30 120 60 188 110 142" stroke="#E6358F"/>
+              <path d="M-10 190C30 152 60 220 110 174" stroke="#fff"/>
+              <path d="M-10 222C30 184 60 252 110 206" stroke="#FF8CC6"/>
+            </g>
+            <use href="#gloss"/>
+          </g></g></g>
+
+          <!-- 4: cor sólida fosca -->
+          <g transform="translate(350 90) rotate(7 50 220)"><g class="nail-in" style="--i:3"><g clip-path="url(#nc)">
+            <rect width="100" height="220" fill="#E8398F"/>
+            <use href="#gloss"/>
+          </g></g></g>
+
+          <!-- 5: francesa sorriso -->
+          <g transform="translate(460 170) rotate(13 50 220)"><g class="nail-in" style="--i:4"><g clip-path="url(#nc)">
+            <rect width="100" height="220" fill="#F1CCD3"/>
+            <path d="M-5-5H105V70C80 104 20 104-5 70Z" fill="#fff"/>
+            <use href="#gloss"/>
+          </g></g></g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft" aria-labelledby="fazer-title">
+    <div class="wrap split">
+      <div class="split-intro">
+        <h2 class="h2" id="fazer-title">O que eu faço</h2>
+        <p>Cada atendimento começa pela unha natural: preparo, formato e biossegurança. A partir daí, a gente escolhe juntas o que combina com você.</p>
+      </div>
+      <div>
+        <div class="service">
+          <h3>Esmaltação em gel</h3>
+          <p>Cor com brilho, aplicada sobre a unha natural bem preparada, com remoção correta quando chega a hora de trocar.</p>
+        </div>
+        <div class="service">
+          <h3>Alongamento em fibra de vidro</h3>
+          <p>Mais comprimento no formato que você escolher, com a fibra bem alinhada, lixamento técnico e acabamento com top coat.</p>
+        </div>
+        <div class="service">
+          <h3>Decorações</h3>
+          <p>Francesa sorriso, efeito marmorizado, foil e desenhos sob medida para deixar suas unhas únicas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre" aria-labelledby="sobre-title">
+    <div class="wrap split">
+      <div class="split-intro">
+        <h2 class="h2" id="sobre-title">Sobre mim</h2>
+      </div>
+      <div>
+        <p class="about-lead">Oi, me chamo Letícia Aparecida Ciusz. Atuo no mercado de nail design há mais de 15 anos, fazendo esmaltação em gel, alongamento de fibra de vidro e dando cursos.</p>
+        <p class="about-body">Meu trabalho é feito com atenção a cada etapa, da anatomia da unha à biossegurança dos materiais, para que o resultado seja bonito e também saudável.</p>
+        <p class="about-body">Além de atender, eu ensino. Dou cursos presenciais para quem quer começar na área ou aprender uma nova técnica, sempre com teoria, prática e suporte depois da aula.</p>
+        <a class="about-link" href="cursos.html">Conhecer os cursos</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ CONTATO (todas as rotas) ============ -->
+<section class="contact" id="contato" aria-labelledby="contato-title">
+  <div class="wrap contact-grid">
+    <div>
+      <h2 id="contato-title">Vamos conversar?</h2>
+      <p>Quer marcar uma sessão, tirar dúvidas sobre os serviços ou saber mais sobre os cursos? É só entrar em contato pelo WhatsApp que eu te respondo.</p>
+    </div>
+    <a class="btn btn-white" data-wa data-msg="Olá, Letícia! Vim pelo seu site e gostaria de conversar." href="#contato" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>Chamar no WhatsApp</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html" aria-label="Letícia Ciusz, Nail Designer. Ir para o início">
+          <svg class="logo-mark" aria-hidden="true"><use href="#i-nail"/></svg>
+          <span><span class="logo-name">Letícia Ciusz</span><span class="logo-sub">NAIL DESIGNER</span></span>
+        </a>
+        <div class="foot-actions">
+          <a class="btn btn-wa" data-wa data-msg="Olá, Letícia! Vim pelo seu site." href="#contato" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a>
+          <a class="btn btn-foot" data-ig href="#contato" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</a>
+        </div>
+      </div>
+      <div class="foot-nav">
+        <nav aria-label="Rodapé">
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Telefone</h2>
+          <ul>
+            <li><a data-tel href="#contato"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="foot-bottom">&copy; <span id="year"></span> Letícia Ciusz, Nail Designer. Cascavel, PR.</p>
+  </div>
+</footer>
+
+<a class="wa-float" data-wa data-msg="Olá, Letícia! Vim pelo seu site." href="#contato" target="_blank" rel="noopener" aria-label="Falar com a Letícia no WhatsApp">
+  <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+</a>
+
+<script src="site.js"></script>
+</body>
+</html>
