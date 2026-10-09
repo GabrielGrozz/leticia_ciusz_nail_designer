@@ -1,6 +1,6 @@
 # Letícia Ciusz - Nail Designer
 
-> Site oficial de Letícia Ciusz, Nail Designer em Cascavel (PR). A profissional atende clientes com serviços de unhas, realizando alongamento de fibra de vidro e esmaltação em gel e também oferece cursos presenciais de nail design.
+> Site oficial de Letícia Aparecida da Silva Ciusz, Nail Designer em Cascavel (PR). A profissional atende clientes com serviços de unhas, realizando alongamento de fibra de vidro e esmaltação em gel e também oferece cursos presenciais de nail design (curso de nail designer).
 
 ## Site
 
@@ -15,7 +15,7 @@ Principais serviços:
 
 - Esmaltação em gel
 - Alongamento em fibra de vidro
-- Decorações de unhas
+- Decorações de unhas (nail art)
 
 A profissional trabalha com atenção à anatomia das unhas e à biossegurança.
 
@@ -36,8 +36,9 @@ Letícia Aparecida Ciusz atua há mais de 15 anos na área de nail design. Seu t
 ## Local e contato
 
 - Atendimento e cursos: Cascavel, Paraná.
-- Endereço informado para os cursos: Rua Txikaos, 1936, Bairro Santa Cruz, Cascavel, PR.
-- Contato: WhatsApp e Instagram (@leticia_ciusz_nails).
+- Endereço de atendimento e cursos: Rua Txikaos, 1936, Bairro Santa Cruz, Cascavel, PR.
+- WhatsApp: botão disponível no site oficial.
+- Instagram: [@leticia_ciusz_nails](https://www.instagram.com/leticia_ciusz_nails/)
 
 ## Observação
 
